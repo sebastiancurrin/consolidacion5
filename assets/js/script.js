@@ -45,6 +45,7 @@ function getInfo(div,num){
 
 function addCard(rango,nombre,estatura,peso){
     let card =`<figure class="card">
+                
                 <figcaption>
                 <h3>${nombre}</h3>
                 <p>Estatura: ${estatura} cm. Peso: ${peso} kg.</p>

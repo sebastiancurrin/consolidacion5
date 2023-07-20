@@ -11,8 +11,23 @@
     text-align: center;
     padding: 1rem;
     width: 5%;
-    background-color: blue;
+    height: 5%;
+    background-color: rgb(236, 162, 25);
     display: inline-block;
+    border-radius: 30px;
+}
+
+
+
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.info  div{
+    width: 30%;
+    
 }
 
 
@@ -24,9 +39,24 @@
 
 .card{
     display: inline-block;
-    width: 30%;
+    width: 70%;
     border: solid .5px lightgray;
     box-shadow: 4px 4px 15px .5px rgba(148, 148, 184, 0.719);
-    padding: .5rem;
+    padding: 1rem;
     
+}
+
+
+
+.c1{
+    background-color: rgb(253, 144, 144);
+}
+
+.c2{
+    background-color: rgb(139, 245, 139);
+}
+
+.c3{
+    background: rgb(151, 214, 235);
+
 }
